@@ -27,6 +27,9 @@
 # Output directory for local build.
 SITE = _site
 
+# Index file.
+INDEX = $(SITE)/index.html
+
 # Installation directory on server.
 INSTALL = $(HOME)/sites/software-carpentry.org/v5
 
@@ -66,6 +69,7 @@ MOST_SRC = \
 ALL_SRC = \
 	contents.md \
 	$(wildcard intermediate/python/*.md) \
+	index.html \
 	$(MOST_SRC)
 
 # Other files that the site depends on.
