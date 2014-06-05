@@ -13,3 +13,4 @@ twitter_name    : "@swcarpentry"
 twitter_url     : "https://twitter.com/swcarpentry"
 vm_url          : "https://docs.google.com/uc?id=0B4Kr6DYkzkQtd05FekRId05DLXM&amp;export=download"
 exclude         : [branding]
+windows_installer_path : "http://files.software-carpentry.org/SWCarpentryInstaller.exe"
